@@ -1,4 +1,4 @@
-# BingatMicrosoft
+# Microsoft Bing Hackathon - Venturecity 
 
 This Repository Has Soluton for Challenge1:
 Predicting topic of the book
