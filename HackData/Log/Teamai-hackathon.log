@@ -1,0 +1,83 @@
+2016-01-17 01:40:14 INFO  OpenNLPMaxentTopicClassifier:75 - BEGIN-Train - Maxent Topic Classifier
+2016-01-17 01:40:14 INFO  OpenNLPMaxentTopicClassifier:77 - Training TopicCategory0 Classifier
+2016-01-17 01:40:18 INFO  OpenNLPMaxentTopicClassifier:81 - Accuracy:0.8333333333333334
+2016-01-17 01:40:18 INFO  OpenNLPMaxentTopicClassifier:83 - Training TopicCategory1 Classifier
+2016-01-17 01:40:21 INFO  OpenNLPMaxentTopicClassifier:87 - Accuracy:0.7188888888888889
+2016-01-17 01:40:21 INFO  OpenNLPMaxentTopicClassifier:90 - Training TopicCategory2 Classifier
+2016-01-17 01:40:24 INFO  OpenNLPMaxentTopicClassifier:93 - Accuracy:0.8155555555555556
+2016-01-17 01:40:24 INFO  OpenNLPMaxentTopicClassifier:95 - END-Train - Maxent Topic Classifier trainer
+2016-01-17 01:40:48 INFO  OpenNLPMaxentTopicClassifier:75 - BEGIN-Train - Maxent Topic Classifier
+2016-01-17 01:40:48 INFO  OpenNLPMaxentTopicClassifier:77 - Training TopicCategory0 Classifier
+2016-01-17 01:40:57 INFO  OpenNLPMaxentTopicClassifier:81 - Accuracy:0.9931080480213428
+2016-01-17 01:40:57 INFO  OpenNLPMaxentTopicClassifier:83 - Training TopicCategory1 Classifier
+2016-01-17 01:41:06 INFO  OpenNLPMaxentTopicClassifier:87 - Accuracy:0.9893285904846598
+2016-01-17 01:41:06 INFO  OpenNLPMaxentTopicClassifier:90 - Training TopicCategory2 Classifier
+2016-01-17 01:41:15 INFO  OpenNLPMaxentTopicClassifier:93 - Accuracy:0.9946642952423299
+2016-01-17 01:41:15 INFO  OpenNLPMaxentTopicClassifier:95 - END-Train - Maxent Topic Classifier trainer
+2016-01-17 01:53:56 INFO  OpenNLPMaxentTopicClassifier:150 - BEGIN-Test - Maxent Topic Classifier
+2016-01-17 01:53:57 ERROR OpenNLPMaxentTopicClassifier:281 - D:\Hackethon\HackData\Result (Access is denied)
+java.io.FileNotFoundException: D:\Hackethon\HackData\Result (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileWriter.<init>(Unknown Source)
+	at com.teamai.hackathon.impl.OpenNLPMaxentTopicClassifier.writeResult(OpenNLPMaxentTopicClassifier.java:271)
+	at com.teamai.hackathon.impl.OpenNLPMaxentTopicClassifier.test(OpenNLPMaxentTopicClassifier.java:157)
+	at com.teamai.hackathon.impl.OpenNLPMaxentTopicClassifier.main(OpenNLPMaxentTopicClassifier.java:289)
+2016-01-17 01:53:57 INFO  OpenNLPMaxentTopicClassifier:158 - END-Test - Maxent Topic Classifier trainer
+2016-01-17 01:55:07 INFO  OpenNLPMaxentTopicClassifier:150 - BEGIN-Test - Maxent Topic Classifier
+2016-01-17 01:55:07 INFO  OpenNLPMaxentTopicClassifier:158 - END-Test - Maxent Topic Classifier trainer
+2016-01-17 02:15:34 INFO  OpenNLPMaxentTopicClassifier:150 - BEGIN-Test - Maxent Topic Classifier
+2016-01-17 02:15:34 INFO  OpenNLPMaxentTopicClassifier:158 - END-Test - Maxent Topic Classifier trainer
+2016-01-17 02:18:50 INFO  OpenNLPMaxentTopicClassifier:150 - BEGIN-Test - Maxent Topic Classifier
+2016-01-17 02:18:51 INFO  OpenNLPMaxentTopicClassifier:158 - END-Test - Maxent Topic Classifier trainer
+2016-01-17 02:19:57 INFO  OpenNLPMaxentTopicClassifier:150 - BEGIN-Test - Maxent Topic Classifier
+2016-01-17 02:19:57 INFO  OpenNLPMaxentTopicClassifier:158 - END-Test - Maxent Topic Classifier trainer
+2016-01-17 04:55:04 ERROR WekaMultilayerPerceptionImpl:50 - weka.classifiers.functions.MultilayerPerceptron: Cannot handle string attributes!
+weka.core.UnsupportedAttributeTypeException: weka.classifiers.functions.MultilayerPerceptron: Cannot handle string attributes!
+	at weka.core.Capabilities.test(Capabilities.java:980)
+	at weka.core.Capabilities.test(Capabilities.java:869)
+	at weka.core.Capabilities.test(Capabilities.java:1085)
+	at weka.core.Capabilities.test(Capabilities.java:1023)
+	at weka.core.Capabilities.testWithFail(Capabilities.java:1302)
+	at weka.classifiers.functions.MultilayerPerceptron.buildClassifier(MultilayerPerceptron.java:1760)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptionImpl.train(WekaMultilayerPerceptionImpl.java:45)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptionImpl.main(WekaMultilayerPerceptionImpl.java:85)
+2016-01-17 04:55:46 ERROR WekaMultilayerPerceptionImpl:79 - 5
+java.lang.ArrayIndexOutOfBoundsException: 5
+	at weka.core.Instance.value(Instance.java:975)
+	at weka.filters.unsupervised.attribute.NominalToBinary.convertInstance(NominalToBinary.java:490)
+	at weka.filters.unsupervised.attribute.NominalToBinary.input(NominalToBinary.java:173)
+	at weka.classifiers.functions.MultilayerPerceptron.distributionForInstance(MultilayerPerceptron.java:2097)
+	at weka.classifiers.Classifier.classifyInstance(Classifier.java:84)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptionImpl.test(WekaMultilayerPerceptionImpl.java:66)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptionImpl.main(WekaMultilayerPerceptionImpl.java:86)
+2016-01-17 04:56:06 ERROR WekaMultilayerPerceptionImpl:79 - 5
+java.lang.ArrayIndexOutOfBoundsException: 5
+	at weka.core.Instance.value(Instance.java:975)
+	at weka.filters.unsupervised.attribute.NominalToBinary.convertInstance(NominalToBinary.java:490)
+	at weka.filters.unsupervised.attribute.NominalToBinary.input(NominalToBinary.java:173)
+	at weka.classifiers.functions.MultilayerPerceptron.distributionForInstance(MultilayerPerceptron.java:2097)
+	at weka.classifiers.Classifier.classifyInstance(Classifier.java:84)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptionImpl.test(WekaMultilayerPerceptionImpl.java:66)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptionImpl.main(WekaMultilayerPerceptionImpl.java:86)
+2016-01-17 04:57:48 ERROR WekaMultilayerPerceptionImpl:50 - weka.classifiers.functions.MultilayerPerceptron: Cannot handle string attributes!
+weka.core.UnsupportedAttributeTypeException: weka.classifiers.functions.MultilayerPerceptron: Cannot handle string attributes!
+	at weka.core.Capabilities.test(Capabilities.java:980)
+	at weka.core.Capabilities.test(Capabilities.java:869)
+	at weka.core.Capabilities.test(Capabilities.java:1085)
+	at weka.core.Capabilities.test(Capabilities.java:1023)
+	at weka.core.Capabilities.testWithFail(Capabilities.java:1302)
+	at weka.classifiers.functions.MultilayerPerceptron.buildClassifier(MultilayerPerceptron.java:1760)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptionImpl.train(WekaMultilayerPerceptionImpl.java:45)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptionImpl.main(WekaMultilayerPerceptionImpl.java:85)
+2016-01-17 07:46:16 ERROR WekaMultilayerPerceptronImpl:58 - no valid attribute type or invalid enumeration, read Token[11561], line 3
+java.io.IOException: no valid attribute type or invalid enumeration, read Token[11561], line 3
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:240)
+	at weka.core.converters.ArffLoader$ArffReader.parseAttribute(ArffLoader.java:768)
+	at weka.core.converters.ArffLoader$ArffReader.readHeader(ArffLoader.java:670)
+	at weka.core.converters.ArffLoader$ArffReader.<init>(ArffLoader.java:134)
+	at weka.core.Instances.<init>(Instances.java:124)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptronImpl.train(WekaMultilayerPerceptronImpl.java:41)
+	at com.teamai.hackathon.core.ml.impl.WekaMultilayerPerceptronImpl.main(WekaMultilayerPerceptronImpl.java:93)

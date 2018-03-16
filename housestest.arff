@@ -1,0 +1,13 @@
+@relation house
+
+@attribute houseSize numeric
+@attribute lotSize numeric
+@attribute bedrooms numeric
+@attribute granite numeric
+@attribute bathroom numeric
+@attribute sellingPrice numeric
+
+@data
+5529,9191,6,0,0,144391.564995
+6247,10061,5,1,1,134690.559116
+5032,10150,5,0,1,167061.462003

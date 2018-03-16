@@ -1,0 +1,17 @@
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\data\EvaluationRequest.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\common\PropertiesReader.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\data\Book.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\data\ModelTrainRequest.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\util\BagOfWordsFeatureGenerator.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\service\TopicClassifier.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\data\TopicCategory.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\util\AuthorFeatureGenerator.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\impl\OpenNLPDocumentCategorizerMaxent.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\service\DocumentCategorizer.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\data\DocumentCategorizeInitializer.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\data\DocumentCollection.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\ml\impl\WekaMultilayerPerceptronImpl.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\data\EvaluationResult.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\impl\OpenNLPMaxentTopicClassifier.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\ml\service\RegressionService.java
+D:\Hackethon\Teamai-hackathon\src\main\java\com\teamai\hackathon\core\nlp\data\ClassifierDataTypes.java
