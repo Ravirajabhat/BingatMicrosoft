@@ -1,5 +1,6 @@
+# BingatMicrosoft
 
-Challenge1:
+This Repository Has Soluton for Challenge1:
 Predicting topic of the book
 
 Instruction to run Code:
@@ -20,4 +21,9 @@ Cross-fold Validation result:(80:20)
 TopicCategory0 Classifier : Accuracy:0.8333333333333334
 TopicCategory1 Classifier : Accuracy:0.7188888888888889
 TopicCategory2 Classifier : Accuracy:0.8155555555555556
-# BingatMicrosoft
+
+Problem Statement:
+
+https://github.com/Ravirajabhat/BingatMicrosoft/wiki
+
+https://github.com/Ravirajabhat/BingatMicrosoft/blob/master/Books%20Classification%20and%20regrestion%20problem/Microsoft%2BBing%2BHackathon.pdf
